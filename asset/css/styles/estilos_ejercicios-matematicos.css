@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #F4320B;
+}
+
+div{
+    width: 20%;
+    height: 20%;
+    margin: 10px;
+}
+ 
+button {
+  width: 100px;
+  height: 40px;
+  border: 3px solid #315cfd;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: white;
+  font-size: 1em;
+  font-weight: 550;
+}
+
+button:hover {
+  background: #315cfd;
+  color: white;
+  font-size: 1.1em;
+}
